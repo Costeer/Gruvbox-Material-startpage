@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Hanover, Lower Saxony',
     scale: "C",
   },
   clock: {
@@ -52,12 +52,6 @@ const default_config = {
             icon_color: "#e78a4e",
           },
           {
-            name: "youtube",
-            url: "https://www.youtube.com/",
-            icon: "brand-youtube-filled",
-            icon_color: "#ea6962",
-          },
-          {
             name: "twitch",
             url: "https://www.twitch.tv/",
             icon: "brand-twitch",
@@ -72,6 +66,12 @@ const default_config = {
             url: "https://www.chess.com/home",
             icon: "chess-queen-filled",
             icon_color: "#a9b665",
+          },
+          {
+            name: "youtube",
+            url: "https://www.youtube.com/",
+            icon: "brand-youtube-filled",
+            icon_color: "#ea6962",
           },
           {
             name: "monkeytype",
@@ -106,7 +106,7 @@ const default_config = {
     },
     {
       name: "design",
-      background_url: "src/img/banners/cbg-6.gif",
+      background_url: "src/img/banners/cbg-3.gif",
       categories: [
         {
           name: "inspiration",
@@ -122,12 +122,6 @@ const default_config = {
               url: "https://www.artstation.com/?sort_by=community",
               icon: "chart-area",
               icon_color: "#7daea3",
-            },
-            {
-              name: "leonardo ai",
-              url: "https://app.leonardo.ai/",
-              icon: "brand-openai",
-              icon_color: "#89b482",
             },
             {
               name: "dribble",
@@ -159,12 +153,6 @@ const default_config = {
               icon_color: "#ea6962",
             },
             {
-              name: "adobe color",
-              url: "https://color.adobe.com/es/create/color-wheel",
-              icon: "brand-adobe",
-              icon_color: "#7daea3",
-            },
-            {
               name: "terminalsexy",
               url: "https://terminal.sexy",
               icon: "prompt",
@@ -187,7 +175,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-7.gif",
+      background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
           name: "repositories",
@@ -274,9 +262,9 @@ const default_config = {
           name: "mails",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com/mail/u/0/",
-              icon: "brand-gmail",
+              name: "proton mail",
+              url: "https://mail.proton.me/u/2/inbox",
+              icon: "brand-proton",
               icon_color: "#ea6962",
             },
           ],
@@ -289,12 +277,6 @@ const default_config = {
               url: "https://drive.google.com/drive/u/0/my-drive",
               icon: "brand-google-drive",
               icon_color: "#e78a4e",
-            },
-            {
-              name: "dropbox",
-              url: "https://www.dropbox.com/h?role=personal&di=left_nav",
-              icon: "box-seam",
-              icon_color: "#7daea3",
             },
             {
               name: "fotos",
