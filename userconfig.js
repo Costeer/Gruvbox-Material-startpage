@@ -70,12 +70,8 @@ const default_config = {
             url: "https://www.youtube.com/",
           },
           {
-            name: "Disney+",
-            url: "https://www.disneyplus.com/home",
-          },
-          {
-            name: "Primevideo",
-            url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
+            name: "Hurawatch",
+            url: "https://hurawatch.at/home",
           },
         ],
       }],
