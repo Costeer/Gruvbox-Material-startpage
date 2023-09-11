@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Hannover, Lower Saxony',
+    location: 'Matão, São Paulo',
     scale: "C",
   },
   clock: {
@@ -52,6 +52,12 @@ const default_config = {
             icon_color: "#e78a4e",
           },
           {
+            name: "youtube",
+            url: "https://www.youtube.com/",
+            icon: "brand-youtube-filled",
+            icon_color: "#ea6962",
+          },
+          {
             name: "twitch",
             url: "https://www.twitch.tv/",
             icon: "brand-twitch",
@@ -89,11 +95,6 @@ const default_config = {
             icon: "brand-disney",
             icon_color: "#7daea3",
           },
-          {
-            name: "Hurawatch",
-            url: "https://hurawatch.at/home",
-            icon: "play",
-            icon_color: "7daea3"
           {
             name: "primevideo",
             url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
