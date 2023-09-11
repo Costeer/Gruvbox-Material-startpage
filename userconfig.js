@@ -5,7 +5,7 @@ const default_config = {
   temperature: {
     location: 'Hannover, Lower Saxony',
     scale: "C",
-    },
+  },
   clock: {
     format: "h:i p",
     iconColor: "#ea6962",
